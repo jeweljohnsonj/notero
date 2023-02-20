@@ -175,7 +175,11 @@ declare namespace Zotero {
 
     getNotes(includeTrashed: boolean): DataObjectID[];
 
+    getNoteTitle(): string;
+
     getTags(): { tag: string; type: number }[];
+
+    isNote(): boolean;
 
     isRegularItem(): boolean;
 
